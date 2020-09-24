@@ -1,0 +1,63 @@
+nav {
+    width: 100%;
+    height: 5em;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+}
+
+.nav-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    list-style: none;
+}
+
+li {
+    text-decoration: none;
+    /* font-family: 'Montserrat Subrayada', sans-serif; */
+}
+
+.nav-item {
+    color: #a35364;
+    text-decoration: none;
+    margin: 1em;
+    font-family: 'Montserrat Subrayada', sans-serif;
+}
+
+#about {
+    color: #a35364;
+    text-decoration: none;
+}
+
+#intro {
+    color: #a35364;
+    text-decoration: none;
+}
+
+#credentials {
+    color: #a35364;
+    text-decoration: none;
+}
+
+#accounts {
+    color: #a35364;
+    text-decoration: none;
+}
+
+#builds {
+    color: #a35364;
+    text-decoration: none;
+}
+
+#contact {
+    color: #a35364;
+    text-decoration: none;
+}

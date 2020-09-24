@@ -1,0 +1,354 @@
+.card {
+    flex: 0 0 auto;
+    width: 50%;
+    height: 30em;
+    background-color: white;
+    color: black;
+    border-radius: 0;
+    padding: 1em;
+    border: 1px solid white;
+}
+
+.card h1 {
+    font-family: 'Montserrat Subrayada', sans-serif;
+    color: black;
+}
+
+
+/* CARD ONE */
+
+#card-one {
+    background-image: url("../assets/selfie.gif");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #835983;
+    border: 1px solid white;
+}
+
+#card-one-img {
+    width: 100%;
+    height: 100%;
+}
+
+
+/* CARD TWO */
+
+#card-two {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    border: 1px solid white;
+    padding: 1em;
+}
+
+#card-two h4 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+
+.blog-text {
+    padding: 2em;
+    margin-top: -2em;
+}
+
+#card-two h5 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    line-height: 25px;
+}
+
+#card-two a {
+    font-family: 'Montserrat Subrayada', sans-serif;
+    margin-top: -1em;
+}
+
+
+/* CARD THREE */
+
+#card-three {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    padding: 1em;
+    background-image: url("../assets/about.gif");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+/* CARD FOUR */
+
+#card-four {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    padding: 1em;
+}
+
+#card-four h4 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    margin-bottom: 1em;
+}
+
+.about-text {
+    padding: 3em;
+    margin-top: -2em;
+}
+
+#card-four h5 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    line-height: 30px;
+}
+
+#card-four a {
+    font-family: 'Montserrat Subrayada', sans-serif;
+    margin-top: -1em;
+}
+
+
+/* CARD FIVE */
+
+#card-five {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    padding: 1em;
+    background-image: url("../assets/credentials.gif");
+    background-size: 90%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+/* CARD SIX */
+
+#card-six {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    padding: 1em;
+    overflow: scroll;
+}
+
+#card-six h4 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    margin-bottom: 1em;
+}
+
+.creds-text {
+    padding: 2em;
+    margin-top: -2em;
+    margin-left: -2em;
+}
+
+#card-six p {
+    font-family: 'Open Sans', sans-serif;
+    /* font-weight: bold; */
+    line-height: 25px;
+}
+
+#card-six a {
+    font-family: 'Montserrat Subrayada', sans-serif;
+    margin-top: 1em;
+}
+
+#card-six ul {
+    line-height: 25px;
+    list-style-position: inside;
+    /* margin-top: .5em; */
+    margin-bottom: 1em;
+}
+
+#wd-gold {
+    list-style-image: url('../assets/badges-webdev_gold icon.png');
+}
+
+#wd-blue {
+    list-style-image: url('../assets/badges-webdev_blue icon.png');
+}
+
+#wd-red {
+    list-style-image: url('../assets/badges-webdev_red icon.png');
+}
+
+#sd-gold {
+    list-style-image: url('../assets/software_badge_yellow1 icon.png');
+}
+
+#sd-blue {
+    list-style-image: url('../assets/software_badge_blue1 icon.png');
+}
+
+#sd-red {
+    list-style-image: url('../assets/software_badge_red1 icon.png');
+}
+
+
+/* CARD SEVEN */
+
+#card-seven {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    padding: 1em;
+    background-image: url("../assets/accounts.gif");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#card-seven h4 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    margin-bottom: 1em;
+}
+
+.social {
+    width: 135px;
+    height: 135px;
+    border-radius: 10%;
+    border: 1px solid transparent;
+}
+
+#linkedin {
+    border-radius: 7%;
+}
+
+#facebook {
+    border-radius: 20%;
+}
+
+.social {
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: box-shadow;
+    transition-property: box-shadow;
+}
+
+.social:hover,
+.social:focus,
+.social:active {
+    box-shadow: 0 0 8px rgb(235, 53, 108);
+    outline: #c165b1;
+}
+
+
+/* CARD EIGHT */
+
+#card-eight {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    padding: 1em;
+    overflow: scroll;
+}
+
+#card-eight h4 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    margin-bottom: 1em;
+}
+
+#card-eight p {
+    font-family: 'Open Sans', sans-serif;
+    /* font-weight: bold; */
+    line-height: 25px;
+}
+
+#card-eight a {
+    font-family: 'Montserrat Subrayada', sans-serif;
+    margin-top: 1em;
+}
+
+#dr-img {
+    height: 15rem;
+    width: 30rem;
+}
+
+#rio-img {
+    height: 15rem;
+    width: 30rem;
+}
+
+#ghost-img {
+    height: 15rem;
+    width: 30rem;
+}
+
+#gir-img {
+    height: 15rem;
+    width: 30rem;
+}
+
+
+/* CARD NINE */
+
+#card-nine {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    padding: 1em;
+    overflow: scroll;
+    color: black;
+}
+
+#card-nine label {
+    color: black;
+}
+
+#card-nine form {
+    margin-top: 2em;
+}
+
+#card-nine h4 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    margin-bottom: 1em;
+}
+
+#card-nine p {
+    font-family: 'Open Sans', sans-serif;
+    /* font-weight: bold; */
+    line-height: 25px;
+}
+
+#card-nine a {
+    font-family: 'Montserrat Subrayada', sans-serif;
+    margin-top: 1em;
+}
+
+.btn {
+    background-color: black;
+    color: white;
+}
+
+.btn:hover {
+    background-color: #e1817d;
+    color: black;
+}
