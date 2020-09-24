@@ -9,6 +9,15 @@
     border: 1px solid white;
 }
 
+.card a {
+    text-decoration: none;
+    color: #a35364;
+}
+
+.card a:hover {
+    color: black;
+}
+
 .card h1 {
     font-family: 'Montserrat Subrayada', sans-serif;
     color: black;
