@@ -1,6 +1,6 @@
 nav {
     width: 100%;
-    height: 5em;
+    height: 3em;
     background-color: black;
     display: flex;
     flex-direction: row;
@@ -13,11 +13,12 @@ nav {
 .nav-list {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     align-content: center;
     text-align: center;
     list-style: none;
+    margin-top: .6em;
 }
 
 li {
@@ -32,32 +33,85 @@ li {
     font-family: 'Montserrat Subrayada', sans-serif;
 }
 
-#about {
+
+/* Bob */
+
+@-webkit-keyframes nav-item {
+    0% {
+        -webkit-transform: translateY(-8px);
+        transform: translateY(-8px);
+    }
+    50% {
+        -webkit-transform: translateY(-4px);
+        transform: translateY(-4px);
+    }
+    100% {
+        -webkit-transform: translateY(-8px);
+        transform: translateY(-8px);
+    }
+}
+
+@keyframes nav-item {
+    0% {
+        -webkit-transform: translateY(-8px);
+        transform: translateY(-8px);
+    }
+    50% {
+        -webkit-transform: translateY(-4px);
+        transform: translateY(-4px);
+    }
+    100% {
+        -webkit-transform: translateY(-8px);
+        transform: translateY(-8px);
+    }
+}
+
+@-webkit-keyframes nav-item-float {
+    100% {
+        -webkit-transform: translateY(-8px);
+        transform: translateY(-8px);
+    }
+}
+
+@keyframes nav-item-float {
+    100% {
+        -webkit-transform: translateY(-8px);
+        transform: translateY(-8px);
+    }
+}
+
+.nav-item {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+}
+
+.nav-item:hover,
+.nav-item:focus,
+.nav-item:active {
+    -webkit-animation-name: nav-item-float, nav-item;
+    animation-name: nav-item-float, nav-item;
+    -webkit-animation-duration: .3s, 1.5s;
+    animation-duration: .3s, 1.5s;
+    -webkit-animation-delay: 0s, .3s;
+    animation-delay: 0s, .3s;
+    -webkit-animation-timing-function: ease-out, ease-in-out;
+    animation-timing-function: ease-out, ease-in-out;
+    -webkit-animation-iteration-count: 1, infinite;
+    animation-iteration-count: 1, infinite;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+    -webkit-animation-direction: normal, alternate;
+    animation-direction: normal, alternate;
+}
+
+#nav {
     color: #a35364;
     text-decoration: none;
 }
 
-#intro {
-    color: #a35364;
-    text-decoration: none;
-}
-
-#credentials {
-    color: #a35364;
-    text-decoration: none;
-}
-
-#accounts {
-    color: #a35364;
-    text-decoration: none;
-}
-
-#builds {
-    color: #a35364;
-    text-decoration: none;
-}
-
-#contact {
-    color: #a35364;
-    text-decoration: none;
+#nav:hover {
+    color: white;
 }
