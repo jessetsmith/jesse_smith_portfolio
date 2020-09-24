@@ -386,6 +386,7 @@
     padding: 1em;
     overflow: scroll;
     color: black;
+    padding-bottom: 2em;
 }
 
 #card-nine label {
